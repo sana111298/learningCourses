@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orange.e_learningcourses">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ELearningCourses">
+        <activity android:name=".ChangePass"></activity>
+        <activity android:name=".VerificationCode" />
+        <activity android:name=".ForgotPass" />
+        <activity android:name=".OrderDone" />
+        <activity android:name=".PassChanged" />
+        <activity android:name=".AccCreated" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".signin" />
+        <activity android:name=".IntroAppP4" />
+        <activity android:name=".IntroAppP3" />
+        <activity android:name=".IntroAppP2" />
+        <activity android:name=".IntroAppP1" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
