@@ -9,7 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ELearningCourses">
-        <activity android:name=".ChangePass"></activity>
+        <activity
+            android:name=".CoursePreview"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".CoursesHomeTwo"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Payment"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Category"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".LearningRoom" />
+        <activity android:name=".MyProfile" />
+        <activity
+            android:name=".TopCourses"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".ChangePass" />
         <activity android:name=".VerificationCode" />
         <activity android:name=".ForgotPass" />
         <activity android:name=".OrderDone" />
@@ -21,20 +56,8 @@
         <activity android:name=".IntroAppP3" />
         <activity android:name=".IntroAppP2" />
         <activity android:name=".IntroAppP1" />
-        <activity android:name=".Splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Splash" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

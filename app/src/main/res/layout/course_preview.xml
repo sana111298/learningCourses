@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursePreview"
+    android:background="#FFFAF2"
+    android:paddingHorizontal="20dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/white_bg"
+                android:src="@drawable/arrowback"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="8"
+                android:gravity="center_horizontal"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textColor="#141414"
+                    android:text="Hi, Alex Joe "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/hiemoji"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/white_bg"
+                android:src="@drawable/cart"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/white_bg"
+            android:drawableStart="@drawable/searchicon"
+            android:layout_marginBottom="20dp"
+            android:hint="Search Here..."
+            android:drawablePadding="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="start">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#141414"
+            android:textSize="18dp"
+            android:text="Coding with Python \nInterface"/>
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="17dp"
+            android:text="Best Seller"
+            android:layout_marginHorizontal="5dp"
+            android:textSize="13dp"
+            android:background="@drawable/btn_bg"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="start">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reviewstar"
+            android:layout_marginVertical="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" (122 ratings) 25,190 Students"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:paddingHorizontal="3dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:lineSpacingExtra="2dp"
+        android:text="A long established fact that a reader will beens\ndistract by the readable content of a page \nwhen looking attes its layout... read more"
+        />
+
+        <VideoView
+            android:id="@+id/videoView"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="150dp"
+            />
+
+
+
+
+</LinearLayout>
